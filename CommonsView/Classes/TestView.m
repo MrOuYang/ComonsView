@@ -7,7 +7,9 @@
 //
 
 #import "TestView.h"
-
+@interface TestView()
+@property(nonatomic,weak)UILabel *titleLable;
+@end
 @implementation TestView
 
 /*
@@ -26,7 +28,15 @@
     return self;
 }
 -(void)setUpView{
-    
+    UILabel *titleLable = [[UILabel alloc] init];
+    self.titleLable = titleLable;
+    titleLable.frame = CGRectMake(0, 0, self.frame.size.width, 44);
+    titleLable.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:titleLable];
+}
+-(void)setName:(NSString *)name{
+    _name = name;
+    self.titleLable.text = name;
 }
 
 @end

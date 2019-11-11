@@ -1,0 +1,22 @@
+{
+  "name": "CommonsView",
+  "version": "0.1.0",
+  "summary": "A short description of CommonsView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2051918090@qq.com/CommonsView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2051918090@qq.com": "oyxk618@163.com"
+  },
+  "source": {
+    "git": "https://github.com/2051918090@qq.com/CommonsView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CommonsView/Classes/**/*"
+}

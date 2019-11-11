@@ -1,0 +1,16 @@
+PODS:
+  - CommonsView (0.1.0)
+
+DEPENDENCIES:
+  - CommonsView (from `../`)
+
+EXTERNAL SOURCES:
+  CommonsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonsView: 38eb5f7db447c41c822270af80a9805787adb0b3
+
+PODFILE CHECKSUM: fca668f7a1df47fbee5e9a88c275b7100eb232cf
+
+COCOAPODS: 1.8.4
